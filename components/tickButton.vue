@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="relative flex mt-[10rem]">
+        <div class="relative flex mt-[10rem] md:h-[680px] overflow-hidden">
             <div class="bg-pic w-[100%] md:w-[85%]">
                 <div class="w-[85%] m-auto pt-4">
                     <h1 class="text-[22px] lg:text-[42px] font-medium md:w-[936px] tracking-wider">Näme üçin Hil holyklyk Jemgyýetini saýlaýarsyňyz?</h1>
@@ -21,11 +21,10 @@
                     </div>  
                 </div>
             </div>
-            <div class="hidden lg:block lg:absolute lg:top-[40%] lg:left-[62%]">
+            <div class="hidden lg:block lg:absolute lg:top-[40%] lg:left-[63%] z-50">
                 <img src="~/assets/bg-img/Frame 28.png">
             </div>
-            <div class="blue-pic hidden md:block">
-                <img src="~/assets/bg-img/Vector 6.png">
+            <div class="blue-pic hidden md:block absolute inset-0 left-[60%]">
             </div>
         </div>      
     </div>
@@ -83,11 +82,15 @@
   </script>
   
   <style scoped>
-  .blue-pic{
-    background-color: #002855;
-  }
   .bg-pic{
     background-color: #EEF6FF;
+  }
+  .blue-pic{
+    background-color: #002855;
+    width: 619px;
+    height: auto;
+    clip-path: polygon(50% 0%,100% 0%,100% 100%,0% 100%);
+    
   }
   button {
     background: none;

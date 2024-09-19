@@ -15,7 +15,7 @@
             </div>
 
             <!-- Birinji element -->
-            <div class="absolute md:top-1/4 md:left-1/4 transform -translate-x-1/2 -translate-y-1/2 top-[8%] left-[48%]">
+            <div class="hidden md:block absolute md:top-1/4 md:left-1/4 transform -translate-x-1/2 -translate-y-1/2 top-[8%] left-[48%]">
                 <img src="~/assets/bg-img/Vector 3.png" class="md:w-[165px] w-[95px]">
             </div>
 
@@ -71,7 +71,7 @@ import 'keen-slider/keen-slider.min.css'
 
 export default {
     setup(){
-    const [container] = useKeenSlider({
+      const [container] = useKeenSlider({
         breakpoints: {
         '(min-width: 200px)': {
             slides: { perView: 2, spacing: 1 },
@@ -81,8 +81,8 @@ export default {
         },
         },
         slides: { perView: 1 },
-    })
-    return { container }
+      })
+      return { container }
     }
 }
 </script>

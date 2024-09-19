@@ -1,5 +1,5 @@
 <template>
-    <div class="shadow-md">
+    <div class="shadow-md pb-[20px]">
         <div class="flex w-full h-[44px]" style="background-color: #002855;">
                 <div class="w-[85%] flex items-center justify-end lg:flex lg:justify-end m-auto " >
                     <div class="flex text-white w-[100%] justify-center lg:w-auto">

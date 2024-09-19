@@ -2,7 +2,7 @@
     <div>
         <div class="mt-4">
             <img src="~/assets/contact/H30aba39c30984aafbe9b9905d33f2482e 1 (1).png" class="w-full h-[153px] md:h-auto">
-            <div class="absolute md:top-[35%] md:left-[20%] top-[16%] left-[8%] flex flex-col items-center justify-center">
+            <div class="absolute md:top-[35%] md:left-[20%] top-[25%] left-[8%] flex flex-col items-center justify-center">
                 <h1 class="text-[22px] md:text-[42px] text-white font-bold">Contact</h1>
                 <p class="text-[16px] md:text-[22px] text-white text-center w-[343px] md:w-[900px]">The company produces and offers a wide range of automatic traffic enforcement equipment, photo radar systems and intelligent road cameras.</p>
             </div>

@@ -13,27 +13,35 @@
             <div class="border shadow-lg flex p-4 items-center justify-center mt-5 md:mt-0 h-[261px] md:h-[410px] md:w-[790px]">
                 <div class="flex flex-col md:w-[400px] items-end">
                     <div class="flex items-center h-[110px] border-r-2 border-b-2">
-                        <h1 class="text-sm md:text-2xl md:font-bold">20+ <br>
-                            Products</h1>
-                        <img src="~/assets/trophy/box-2.png" class="mr-[6rem] ml-5">
+                        <div>
+                            <h1 class="text-md md:text-2xl font-bold">20+ </h1>
+                            <span>Products</span>
+                        </div>
+                        <img src="~/assets/trophy/box-2.png" class="md:mr-[5rem] ml-5">
                     </div>
                     <div class="flex items-center h-[110px] border-t-2 border-r-2">
-                        <h1 class="text-sm md:text-2xl md:font-bold">80 <br>
-                            Successful Projects</h1>
+                        <div>
+                            <h1 class="text-md md:text-2xl font-bold">80 </h1>
+                            <span>Successful Projects</span>
+                        </div>
                         <img src="~/assets/trophy/award.png" class="mx-4">
                     </div>
                 </div>
 
                 <div class="flex flex-col  md:w-[400px] items-start">
                     <div class="flex items-center h-[110px] border-l-2 border-b-2">
-                        <h1 class="text-sm md:text-2xl md:font-bold ml-[3rem] mr-2">1561 <br>
-                        End-User Instutions</h1>
-                        <img src="~/assets/trophy/courthouse.png">
+                        <div class="ml-5">
+                            <h1 class="text-md md:text-2xl font-bold">1561 </h1>
+                            <span>End-User Instutions</span>
+                        </div>
+                        <img src="~/assets/trophy/courthouse.png" class="mx-4">
                     </div>
                     <div class="flex items-center h-[110px] border-t-2 border-l-2">
-                        <h1 class="text-sm md:text-2xl md:font-bold ml-[3rem] mr-2">4618 <br>
-                        System Working 24/7</h1>
-                        <img src="~/assets/trophy/setting-2.png">
+                        <div class="ml-5">
+                            <h1 class="text-md md:text-2xl font-bold">4618 </h1>
+                            <span>System Working 24/7</span>
+                        </div>
+                        <img src="~/assets/trophy/setting-2.png" class="mx-4">
                     </div>
                 </div>
             </div>
